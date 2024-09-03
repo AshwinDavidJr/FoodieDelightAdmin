@@ -1,0 +1,12 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand p-2" href="#">FoodieDelightAdmin</a>
+    <button class="btn btn-outline-secondary my-2 my-sm-0 mr-2" (click)="authService.Logout()">Logout</button>
+
+  </nav>
+
+<button class="btn btn-success m-2" (click)="onAddNewRow()">+ Add Restaurant</button>
+<ag-grid-angular
+ class="ag-theme-alpine"
+ style="height: 84%; width:100%"
+ [gridOptions]="gridOptions"
+ >

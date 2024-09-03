@@ -1,0 +1,36 @@
+.main-Container {
+    /* margin-top: -16px */
+    /* background-image: url('../../../assets/images/bg.jpg'); */
+    height: 100%;
+   /* Center and scale the image nicely */
+   background-image: url('src/assets/pexels-ella-olsson-572949-1640774.jpg'); 
+   background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.bg {
+    /* background-image: url(../../../../assets/images/loginBg.png); */
+   /* Center and scale the image nicely */
+   background-color: hsl(218deg 1.06% 59.39%);
+    background-image: radial-gradient(650px circle at 0% 0%, hsl(189.63deg 35.22% 78.76%) 15%, hsl(218deg 47.66% 78.06%) 35%, hsl(187.66deg 37.01% 75.1%) 75%, hsl(218deg 13.08% 50.76%) 80%, transparent 100%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  /* opacity: .5; */
+}
+
+.btn-google {
+    color: #545454;
+background-color: #ffffff;
+box-shadow: 0 1px 2px 1px #ddd;
+width: inherit;
+}
